@@ -1,0 +1,44 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+void readInStrings()
+{
+
+}
+
+void sortLetters()
+{
+
+}
+
+void printUnique()
+{
+
+}
+
+int main()
+{
+    bool error = true;
+    while(error)
+    cout<<"Please choose a file to read in from."<<endl;
+    cout<<"Make sure this is the correct and full name of the file."<<endl;
+
+    cin>>fileName;
+
+    ifstream fileName(fileName);
+
+    if(!fileName.is_open())
+    {
+        cout<<"Please check your file name and try again."
+    }
+
+    else
+    {
+
+
+    }
+
+    return 0;
+}
+
